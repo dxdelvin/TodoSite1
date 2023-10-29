@@ -14,15 +14,6 @@ body{
     justify-content: center;
 }
 
-@media screen and (max-width: 600px){
-    .center-rectangle{
-        width: 330px;
-    }
-    .center-rectangle input{
-        width: 220px;
-    }
-}
-
 .center-rectangle {
     background-image: radial-gradient(rgba(0, 0, 0, 0.153) 2px, transparent 0);
     background-size: 40px 40px;
@@ -99,11 +90,20 @@ li{
 .todo-items li:hover{
     transform: scale(1.01);
     transition: all ease .2s;
-
+    
 }
 
 #add:hover{
     color: white;
     background-color: rgb(81, 81, 5);
     transition: all ease-in-out .3s;
+}
+
+@media (max-width:600px){
+    .center-rectangle{
+        width: 330px;
+    }
+    .center-rectangle input{
+        width: 220px;
+    }
 }
