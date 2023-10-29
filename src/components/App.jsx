@@ -27,7 +27,6 @@ export default function App(){
             </div>
             <div className="todo-items">
                 <ul>
-                <Task taskadd="Henry Sir Op"/>
                 {items}
                 </ul>
             </div>
