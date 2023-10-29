@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 
 export default function Task(props){
+
+
+
     return(
-        <li>{props.taskadd}</li>
+        <li onClick={(()=>{props.deleteCheck(props.id)})}>{props.taskadd}</li>
     )
-}
+} 
